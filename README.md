@@ -2,7 +2,7 @@
 
 #####Description#####
 
-This is a tiny little Chromium/Chrome extension to scan for XSS framework tools commonly employed during pentests, phishing, and script kiddy antics. This rough-cut version v1.0.0 only detects Xenontix and BeEF, however; in theory, it could be expanded to discover other nasties as well, such as the Angler exploit kit, etc.
+This is a tiny little Chromium/Chrome extension to scan for XSS framework tools commonly employed during pentests, phishing attacks, and script kiddy antics. This rough-cut version v1.0.0 only detects Xenontix and BeEF, however; in theory, it could be expanded to discover other nasties as well, such as the Angler exploit kit, etc.
 
 #####Under the Hood#####
 
@@ -28,7 +28,6 @@ Sends and receives messages with the background service, scans the target tab(s)
 
 ###TODO###
 
--Add option for history/logging
-
--Add option to toggle blocked sites/re-enable javascript
+* Add option for history/logging
+* Add option to toggle blocked sites/re-enable javascript
 
