@@ -1,0 +1,29 @@
+{
+  "name" : "DeBeEFed",
+  "version" : "1.0.0",
+  "description" : "Shows a notification on pages potentially serving XSS frameworks.",
+  "background" : {
+    "scripts": ["background.js"]
+  },
+  "permissions" : [ "notifications", "contentSettings", "tabs" ],
+  "icons" : {
+    "16" : "16.png",
+    "48" : "48.png",
+	"64" : "64.png",
+    "128" : "128.png"
+  },
+  "options_page": "options.html",
+  "web_accessible_resources": [ "relay.js" ],
+  "content_scripts" : [
+    {
+      "matches" : [ 
+         "http://*/*",
+         "https://*/*"
+      ],
+      "js" : [ "contentscript.js" ],
+      "run_at" : "document_idle",
+      "all_frames" : true
+    }
+  ],
+  "manifest_version": 2
+}
