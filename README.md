@@ -29,5 +29,6 @@ Sends and receives messages with the background service, scans the target tab(s)
 ###TODO###
 
 -Add option for history/logging
+
 -Add option to toggle blocked sites/re-enable javascript
 
