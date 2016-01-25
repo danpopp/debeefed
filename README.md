@@ -4,6 +4,15 @@
 
 This is a tiny little Chromium/Chrome extension to scan for XSS framework tools commonly employed during pentests, phishing attacks, and script kiddy antics. This rough-cut version v1.0.0 only detects Xenontix and BeEF, however; in theory, it could be expanded to discover other nasties as well, such as the Angler exploit kit, etc.
 
+###Installation###
+* download/clone this repo
+* visit chrome://extensions
+* enable "Developer Mode"
+* click "Load unpacked extension" and open the folder where this repo is located.
+
+![install](https://cloud.githubusercontent.com/assets/3140288/12545705/a032fbf6-c312-11e5-9155-d788e2aa7e95.png)
+
+
 ###Under the Hood###
 
 There are two main pieces to this extension, the background-script/content-script/manifest piece - and another component, called the relay which provides Javascript environment access to the target tab(s). 
