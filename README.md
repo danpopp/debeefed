@@ -10,7 +10,7 @@ There are two main pieces to this extension, the background-script/content-scrip
 
 #####Background Service#####
 
-This triggers the actual chrome.notification which opens on top of the browser window and provides interaction with browser settings via user input (ie the user can choose to disable javascript and/or report the problem to Google SafeBrowsing.
+This triggers the actual chrome.notification which opens on top of the browser window and provides interaction with browser settings via user input (ie the user can choose to disable javascript and/or report the problem to Google SafeBrowsing).
 
 #####Content Script#####
 
